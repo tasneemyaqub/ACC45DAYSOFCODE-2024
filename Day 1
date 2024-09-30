@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void solution()
+{
+    int X, Y;
+    cin >> X >> Y;
+    cout << (X*(4)+Y) << endl;
+}
+
+int main()
+{
+    int T;
+    cin >> T;
+    while(T--)
+    {
+        solution();
+    }
+}
