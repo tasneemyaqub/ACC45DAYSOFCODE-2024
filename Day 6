@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int T;
+	cin >> T;
+	while(T--)
+	{
+	    int P, Q, R, S;
+	    cin >> P >> Q >> R >> S;
+	    int total = P+Q+R+S;
+	    int maximum = max(P,(max(Q,max(R,S))));
+	    if(maximum > total-maximum)
+	    {
+	        cout << "yes\n";
+	    }
+	    else
+	    {
+	        cout << "no\n";
+	    }
+	}
+}
